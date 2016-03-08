@@ -24,9 +24,9 @@ function ObserverCounter() {
 			listeners.push(func);
 		},
 		executar: function() {
+			counter.contar();
 			listeners.forEach(function(func) {
-				counter.contar();
-				func(counter);
+				func(counter.count);
 			});
 		}
 	}
@@ -34,8 +34,8 @@ function ObserverCounter() {
 
 var Observer = ObserverCounter(); 
 
-function helloWorld(counter) {
-	console.log('Hello world, observer: ', counter.count);
+function helloWorld(count) {
+	console.log('Hello world, observer: ', count);
 }
 
 Observer.adicionarOuvinte(helloWorld);
