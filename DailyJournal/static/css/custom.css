@@ -1,0 +1,37 @@
+
+/* 
+ * Bootstrap override
+ * */
+
+.caption {
+	top: 5%;
+	position: absolute;
+}
+
+/*
+ * Custom css
+ * */
+.bannerCrop {
+	position: relative;
+	height: 650px;
+	overflow: hidden;
+}
+
+.home-title {
+	font-size: 58px;
+}
+footer > .actions {
+	padding: 10px;
+	padding-bottom: -19px;
+	width: 209px;
+	float: right;
+	margin-bottom: -20px;
+				}
+
+div.actions > span {
+	margin: 0 15px;
+}
+
+section > form {
+	margin-bottom: 10px;
+}
