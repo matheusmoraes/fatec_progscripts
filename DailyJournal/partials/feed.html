@@ -1,0 +1,16 @@
+<div class="alert alert-danger" ng-show="error" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error:</span>
+  Digite alguma coisa
+</div>
+
+<!-- FORM  -->
+<section class="col-md-6 col-md-offset-3">
+<div class="form-group" ng-class="{ 'has-error': error }">
+  <textarea ng-model="newText" placeholder="Digite seu pensamento" class="form-control" name="" cols="30" rows="4"></textarea>
+</div>
+<button class="btn btn-block btn-info" ng-click="createPost()">Post</button>
+</section>
+
+<!-- POSTS -->
+<feed-post post="_post" model="m"  ng-repeat="_post in posts"></feed-post>

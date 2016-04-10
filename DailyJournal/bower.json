@@ -1,0 +1,16 @@
+{
+  "name": "DailyJournal",
+  "homepage": "/",
+  "authors": [
+    "Matheus Negrão <matheusmoraes.mts@hotmail.com>"
+  ],
+  "description": "Journal created for you to share nice stuff and thoughts with yourself!",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular-route": "^1.5.3",
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6"
+  }
+}

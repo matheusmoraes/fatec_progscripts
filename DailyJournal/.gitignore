@@ -1,0 +1,7 @@
+uploads/
+bower_components/
+node_modules/
+static/
+!static/css
+!static/js
+!static/img

@@ -23,12 +23,12 @@
 footer > .actions {
 	padding: 10px;
 	padding-bottom: -19px;
-	width: 209px;
+	width: 100px;
 	float: right;
 	margin-bottom: -20px;
 				}
 
-div.actions > span {
+div.actions > a{
 	margin: 0 15px;
 }
 
